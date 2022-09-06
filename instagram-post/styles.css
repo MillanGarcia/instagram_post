@@ -1,0 +1,87 @@
+body{
+    background-color: black;
+    font-family: 'Nunito', sans-serif;
+    line-height: 15px;
+   
+}
+p{
+    padding-left: 10px;
+}
+.post{
+    background-color: white;
+    width: 500px;
+    margin:auto;
+    margin-bottom:50px; 
+    
+}
+.icon{
+    width: 30px;
+    margin-left: 5px;
+}
+.header{
+    height: 50px;
+    padding: 5px;
+    display:flex;
+    justify-content: space-between;
+    
+}
+.header-start{
+    display:flex;
+    width:80%;
+    padding-left: 10px;
+}
+#first-par{
+    margin-top:auto;
+    margin-bottom: auto;
+}
+.header-end{
+    width:20%;
+    align-items: center;
+    
+}
+#elipsis{
+    height:30px;
+    float:right;
+    margin-top: 10px;
+}
+
+.image-post{
+    fit:contain;
+    width:500px;
+}
+.theicons{
+    display: flex;
+    justify-content: space-between;
+    height: 20px; 
+}
+.theicons-start{
+    width:50%;
+    float:left;    
+}
+.theicons-final{
+    width:40%;
+    float:right;
+}
+#final-icon{
+    float:right;
+    height: 30px;
+    padding-right: 10px;
+}
+
+.foot{
+    padding:10px;
+    margin-bottom: 30px;
+    
+}
+.liked{
+    padding-top: 20px;
+}
+.photo-text{
+    max-width: 500px;
+    max-height: 100px;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+/*para esconder la scroll bar*/
